@@ -1,45 +1,38 @@
-*{
-    margin : 0px ;
-}
-.header{
-    position : fixed ;
-    background-color: aqua;
+* {
+    margin: 0px;
     width: 100%;
-    top: 0px;
-    z-index: 1;
-    left: 0px;
-    height: 100px;
 }
-.awalan{
-    margin-top: 100px;
-    background-color: blue;
-}
-.static{
-    position: relative;
-    background-color: coral;
+header {
+    background-color: #4740ff;
+    text-align: center;
     width: 100%;
-    left: 30px;
-}
-
-.absolute{
-    position: absolute;
-    background-color: aqua;
-    width: 100%;
-    left: 30px;
     
 }
- .sticky1{
-    position: sticky;
-    background-color: blueviolet;
-    width: 100%;
-    left: 30px;
-    top: 100px;
- }
-
- .sticky2{
-    position: sticky;
-    background-color: hotpink;
-    width: 100%;
-    left: 30px;
-    bottom: 0px;
- }
+.container {
+    background-color: #00ffab;
+}
+.sidebar {
+    float: left;
+    width: 50%;
+}
+nav {
+    height: 200px;
+    background-color: #00ffab;
+    float: left;
+}
+aside {
+    background-color: #5597ff;
+    height: 400px;
+}
+main {
+    background-color: coral;
+    float: left;
+    width: 50%;
+    height: 400px;
+}
+footer {
+    background-color: lightcoral;
+    text-align: center;
+    height: 500px;
+    
+}

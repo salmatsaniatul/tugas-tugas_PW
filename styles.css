@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    width: 100%;
+}
+header {
+    background-color: aqua ;
+    text-align: center;
+    width: 100%;
+    
+}
+.flex-container {
+    background-color: blue;
+    display: flex;
+}
+.sidebar {
+    width: 50%;
+    flex: 1;
+}
+nav {
+    height: 200px;
+    text-align: center;
+    background-color: navy;
+}
+aside {
+    background-color: paleturquoise;
+    text-align: center;
+    height: 400px;
+}
+main {
+    background-color: #5597ff;
+    width: 50%;
+    text-align: center;
+    flex: 1.5;
+    height: 600px;
+}
+footer {
+    background-color: lightcoral;
+    text-align: center;
+    height: 100%;
+    
+}
