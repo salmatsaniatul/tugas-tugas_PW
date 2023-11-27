@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+}
+.Header {
+  position: fixed;
+  background-color: rgb(80, 147, 192);
+  color: white;
+  width: 100%;
+  top: 0px;
+  width: 100%;
+  line-height: 70px;
+  z-index: 1;
+}
+.Layout {
+  margin-top: 80px;
+  margin-bottom: 15px;
+}
+.static {
+  position: relative;
+  background-color: rgb(172, 204, 233);
+  left: 50px;
+  max-width: 90%;
+  width: 100%;
+}
+
+.absolute {
+  position: absolute;
+  background-color: rgb(147, 199, 181);
+  left: 50px;
+  max-width: 90%;
+  width: 100%;
+  line-height: 55px;
+}
+
+.sticky1 {
+  position: sticky;
+  background-color: rgb(109, 160, 226);
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 100%;
+  bottom: 0px;
+  line-height: 55px;
+}
+
+.sticky2 {
+  position: sticky;
+  background-color: rgb(131, 193, 201);
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 100%;
+  top: 65px;
+  line-height: 55px;
+}
