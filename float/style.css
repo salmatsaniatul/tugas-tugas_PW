@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  width: 100%;
+}
+header {
+  background-color: #4740ff;
+  text-align: center;
+  width: 100%;
+}
+.container {
+  background-color: #4185eb;
+}
+.sidebar {
+  float: left;
+  width: 50%;
+}
+nav {
+  height: 200px;
+  background-color: #60adec;
+  float: left;
+}
+aside {
+  background-color: #3576d8;
+  height: 400px;
+}
+main {
+  background-color: rgb(42, 157, 185);
+  float: left;
+  width: 50%;
+  height: 400px;
+}
+footer {
+  background-color: #4740ff;
+  text-align: center;
+  height: 500px;
+}
